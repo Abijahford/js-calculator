@@ -4,7 +4,10 @@ Simple Calculator, not a TI-85, that performs logic like addition, subtraction, 
 
 ## Plan
 Implement the functions for all the basic math operators and test them in console.
+
 Then, create a basic GUI with buttons for each digit, operand, and equals key.
+
+Then, create functions that populate the output display when user clicks the number buttons
 
 ## Functions
 
