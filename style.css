@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: lightgrey;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    text-align: center;
+    height: 70%;
+    width: auto;
+}
+.calc {
+    border: black 2px solid;
+    border-radius: 5px;
+    box-shadow: 5px 3px 3px grey;
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70%;
+    width: 70%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.output {
+    border: black 1px solid;
+    height: 10%;
+    width: auto;
+    background-color: linen;
+}
+.buttons {
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    height: 20%;
+    margin: 1px 2px;
+    /*
+        styling
+    */
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #DDD;
+    border: 1px solid #CCC;
+    box-shadow: 0 0 10px -3px rgba(0,0,0,0.2);
+}
+.otherButtons {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.bigButton {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #DDD;
+    border: 1px solid #CCC;
+    box-shadow: 0 0 10px -3px rgba(0,0,0,0.2);
+}
